@@ -12,16 +12,16 @@
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
          <children>
-            <Label fx:id="sum" text="0">
+            <Label id="sum" fx:id="sum" text="0">
                <font>
                   <Font size="24.0" />
                </font>
             </Label>
             <HBox prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <TextField fx:id="firstNumber" />
-                  <TextField fx:id="secondNumber" />
-                  <Button mnemonicParsing="false" onAction="#onAddButtonClick" text="Button" />
+                  <TextField id="firstNum" fx:id="firstNumber" />
+                  <TextField id="secondNum" fx:id="secondNumber" />
+                  <Button id="addButton" mnemonicParsing="false" onAction="#onAddButtonClick" text="Button" />
                </children>
             </HBox>
          </children>
